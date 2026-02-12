@@ -1,1 +1,1 @@
-# SUNTEK-assignments
+# SUNTEK
