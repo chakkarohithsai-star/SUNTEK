@@ -1,0 +1,43 @@
+@media  screen and (max-width:500px) {
+    
+ body{
+  background-color: blue;
+  
+  
+  .vishnu{
+    display: none ;
+  }
+  .roith{
+    display: none;
+  }
+
+ }
+    
+}
+
+@media  screen and (min-width:501px) {
+    body{
+        background-color: blueviolet;
+  .karthik{
+    display: none;
+  }
+  .roith{
+    display: none;
+  }
+    }
+    
+}
+
+@media  screen and (min-width:700px) {
+    body{
+        background-color: gold;
+
+  .karthik{
+    display: none;
+  }
+  .vishnu{
+    display: none;
+  }
+    }
+    
+}

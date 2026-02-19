@@ -1,0 +1,38 @@
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 200px;
+}
+.parent{
+    width: 700px;
+    height: 700px;
+    margin: auto;
+    margin-top: 150px;
+    border: 10px solid black;
+    position: relative;
+}
+.child{
+    width: 100px;
+    height: 100px;
+}
+.child1{
+    position:absolute;
+    background-color: red;
+    left: -50px;
+    top: -50px;
+}
+.child2{
+    background-color:green;
+    position: sticky;
+    top: 100px;
+}
+.child3{
+    background-color:blue;
+    position: fixed;
+}

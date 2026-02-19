@@ -1,0 +1,115 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* nav styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(57, 55, 55, 0.799);
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    
+
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 400px;
+    list-style-type: none;
+}
+nav ul a{
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+.card img{
+width: 100px;
+height: 100px;
+border-radius: 50%;
+}
+.row{
+    flex-wrap: wrap;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+
+}
+.card button{
+    border:none;
+    background-color: rgb(70, 184, 47);
+    border-radius: 20px;
+    margin: 10px;
+    padding: 5px;
+}
+section{
+    border: 2px solid black;
+
+}
+.card{
+    flex:0 0 250px;
+    margin: 30px;
+    border-radius: 20px;
+    background-color: antiquewhite;
+    text-align: center;
+    
+}
+
+.foot{
+    display: flex;
+    background-color: rgb(39, 39, 39);
+    color:aliceblue;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+}
+.foot-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 400px;
+    list-style-type: none;
+    
+}
+.add{
+    margin: 50px;
+}
+.foot-li{
+    margin: 10px;
+}
+@media screen and (max-width:700px){
+    .row{
+        flex-wrap: wrap;
+        flex: 0 0 45%;
+
+
+    }
+    nav{
+        flex-direction: column;
+        align-items:center;
+    }
+    nav ul{
+        flex-direction: column;
+        
+
+    }
+    .add{
+        flex-direction: column;
+        align-items: center;
+    }
+    .add ul{
+        flex-direction: column;
+    }
+    .foot-li{
+        flex-direction: column;
+    }
+    
+}
