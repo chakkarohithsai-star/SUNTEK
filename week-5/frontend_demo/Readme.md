@@ -5,3 +5,5 @@
 * it is a character encoding capable of encoding all possible characters (called code points) in Unicode
 
 ## Css is used to overwrite the default styling applied by user agent (browser) to the html elements
+ 1.dispay property
+ 
